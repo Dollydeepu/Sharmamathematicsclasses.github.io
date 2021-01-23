@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body{
+			background-color: rgba(27,31,34,0.85);
+		}
+		h1{
+			font-size: 2.1rem;
+			line-height: 1.4rem;
+			letter-spacing: 0.5rem;
+			text-align: center;
+			color: white;
+			margin-top: 50px;
+
+		}
+		.maindiv{
+			width: 70%;
+			height: 400px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			background-image: url(image/SMC1.jpeg);
+			background-size: 100% 100%;
+			box-shadow: 1px 1px 10px 5px white;
+			animation: slider 15s infinite linear;
+
+        }
+        @keyframes slider{
+        	0%{background-image: url(image/SMC1.jpeg);}
+        	25%{background-image: url(image/SMC2.jpeg);}
+        	50%{background-image: url(image/SMC3.jpeg);}
+        	75%{background-image: url(image/SMC4.jpeg);}
+
+        }
+	</style>
+</head>
+<body>
+	<h1>SHARMA MATHEMATICS CLASSES</h1>
+	<div class="maindiv">
+		
+	</div>
+
+</body>
+</html>
